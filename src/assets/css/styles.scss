@@ -1,0 +1,19 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+$custom-colors:(
+    "royalprim": $gray-700,
+    "royalbg": $gray-800,
+    "royalborder": $indigo-400,
+    "youred": $red-500
+);
+img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+  }
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
