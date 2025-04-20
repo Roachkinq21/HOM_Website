@@ -2,7 +2,6 @@
   "name": "homwebsitetake2",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "Roachkinq21/HOM_Website",
   "private":"true",
   "stackblitz": {
     "startCommand": "npm start"
