@@ -1,6 +1,6 @@
-import { resolve } from 'path'
+fimport { resolve } from 'path'
 
-export default {
+export default defineConfig{
   base: '/https://github.com/Roachkinq21/HOM_Website.git',
   root: resolve(__dirname, 'src'),
   build: {
